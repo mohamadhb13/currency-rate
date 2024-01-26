@@ -1,0 +1,43 @@
+.main{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+      font-weight: 700;
+      font-size: 20px;
+      width: 100%;
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+}
+.hr{
+    border: 1px solid rgb(57, 57, 57) !important;
+}
+.user{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: ;
+}
+.user P a{
+    text-decoration: none;
+    color: black;
+}
+.w100{
+    width: 100%;
+}
+.circel{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+}
+@media screen and (max-width: 787px) {
+    .date{
+        font-size: 15px;
+    }
+    .user{
+        font-size: 15px;
+    }
+}
+

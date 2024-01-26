@@ -1,0 +1,58 @@
+[
+    {
+        "id" : 0,
+        "name" : "Bitcoin",
+        "percent" : 9.01,
+        "price" : 25625,
+        "nikname" : "BTC",
+        "state" : "+"
+    },
+    {
+        "id" : 1,
+        "name" : "ehereum",
+        "percent" : 6.25,
+        "price" : 360.35,
+        "nikname" : "ETH",
+        "state" : "-"
+    },
+    {
+        "id" : 2,
+        "name" : "Binance coin",
+        "percent" : 4.00,
+        "price" : 53.08,
+        "nikname" : "BNB",
+        "state" : "+"
+    },
+    {
+        "id" : 3,
+        "name" : "Cardano",
+        "percent" : 15.98,
+        "price" : 25.45,
+        "nikname" : "ADA",
+        "state" : "+"
+    },
+    {
+        "id" : 4,
+        "name" : "Tether",
+        "percent" : 12.00,
+        "price" : 75.00,
+        "nikname" : "USDT",
+        "state" : "-"
+    },
+    {
+        "id" : 5,
+        "name" : "Biance USD",
+        "percent" : 1.02,
+        "price" : 457,
+        "nikname" : "BUSD",
+        "state" : "-"
+    },
+    {
+        "id" : 6,
+        "name" : "Coins",
+        "percent" : 0.39,
+        "price" : 1.56,
+        "nikname" : "CNO",
+        "state" : "+"
+    }
+]

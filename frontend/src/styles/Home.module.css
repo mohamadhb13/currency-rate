@@ -1,0 +1,325 @@
+.main{
+    background-image: url(/bgH.avif);
+    width: 100vw;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    overflow: auto;
+
+}
+.home{
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.main2{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+.listTop{
+    display: flex;
+    gap: 20px;
+}
+.topitem{
+    background-color:#DFDEEC;
+    border-radius: 15px;
+    width: calc(100% / 4);
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+    justify-content: center;
+}
+.topitem img{
+    width: 55px;
+}
+.listTop > .topitem:nth-child(3) img{
+    width: 45px !important;
+}
+.listTop > .topitem:nth-child(4) img{
+    width: 60px !important;
+}
+.list{
+    width: 100%;
+    position: relative;
+}
+.listOption{
+    display: flex;
+    justify-content: space-between;
+    background-color:#682A2A;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 70px;
+}
+.listOption p , .coin p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    width: 200px;
+    margin: 0;
+    color: #A19EAC;
+    margin-top: 10px !important;
+}
+.coin{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 50px;
+}
+.coin:first-child{
+    padding-top: 15px;
+    border-radius: 0 0 10px 10px;
+}
+.coin p {
+    color: black ;
+}
+.coin{
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.listvalue{
+    overflow: auto;
+
+}
+.p{
+    color: green  !important;
+
+}
+.n{
+    color: red !important;
+}
+.div2{
+    width: 40%;
+}
+.top{
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden ;
+    display: flex;
+    gap: 10px;
+}
+.divL{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    background-color: hsla(264, 100%, 50%, 0.231);
+    padding: 15px 20px;
+    gap: 10px;
+    text-wrap: nowrap;
+}
+.divB{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    
+    margin-top: 13px;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    background-color: hsla(264, 100%, 50%, 0.231);
+    padding: 25px 20px;
+    text-wrap: nowrap;
+}
+.divBL{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    
+    margin-bottom: 13px;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    background-color: hsla(264, 100%, 50%, 0.231);
+    padding: 25px 20px;
+    text-wrap: nowrap;
+}
+.divL img{
+height: 80px;
+}
+.divL p {
+    margin: 0;
+}
+.topdivs{
+    width: 50%;
+}
+.btm{
+    background-color: hsla(264, 100%, 50%, 0.231);
+    border-radius: 20px;
+    display: flex;
+    margin-top: 10px;
+    padding: 8px 20px;
+    justify-content: space-around;
+
+}
+.btm img{
+    width: 60px;
+}
+.listDiv{
+    
+    width: 60%;
+}
+.div2a{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+.div2a p {
+    font-size: 40px;
+    font-weight: 800;
+}
+.div2a div{
+    background-color: #DFDEEC;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.small{
+    font-size: 11px !important;
+}
+.alert{
+    position: relative;
+}
+.line{
+    position: absolute;
+    width: 45px;
+    height: 3px;
+    background-color: red;
+    transform: rotate(60deg);
+    bottom: 20px;
+}
+@media screen and (max-width: 1239px) {
+    .listDiv{
+        width: 60%;
+    }
+    .div2{
+        width: 40%;
+      
+    }
+    .topdivs{
+        width: 40%;
+    }
+    .divL{
+        width: 80%;
+        font-weight: 700;
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    .divB{
+        width: 80%;        
+        margin-top: 3px;
+        font-size: 20px;
+        padding: 25px 20px;
+
+    }
+    .divBL{
+        width: 80%;
+        font-weight: 700;
+        margin-bottom: 3px;
+        font-size: 20px;
+        padding: 25px 20px;
+    }
+    .divB img , .divBL img , .divL img{
+        width: 60px;
+        height: 60px;
+    }
+    .coin p {
+        text-wrap: nowrap;
+    }
+    .top{
+        width: 100%;
+        border-radius: 20px;
+        overflow: hidden ;
+        display: flex;
+        gap: 30px;
+    }
+    .home{
+        gap: 20px;
+    }
+    .main2{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 787px) {
+    .home{
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    .listDiv{
+        width: 100%;
+    }
+    .div2{
+        width: 100%;
+        overflow:visible !important;
+    }
+    .main2{
+        width: 95%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .topdivs{
+        width:50%;
+    }
+    .top{
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+    .divL{
+        width: 95%;
+        font-weight: 700;
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+    .divB{
+        width: 95%;        
+        margin-top: 3px;
+        font-size: 20px;
+        padding: 10px 10px;
+
+    }
+    .divBL{
+        width: 95%;
+        font-weight: 700;
+        margin-bottom: 3px;
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+    
+}
+@media screen and (max-width: 536px) {
+    .top{
+        gap: 14px;
+    }
+    .list{
+        width: 500px;
+    }
+    .listDiv{
+        width:100%;
+        overflow: auto !important;
+    }
+}
+

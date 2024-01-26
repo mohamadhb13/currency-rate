@@ -1,0 +1,174 @@
+.main{
+    background-image: url(/bg-l.avif);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Signup{
+    background-color: #DEDEDE;
+    padding: 60px 50px;
+    padding-bottom: 10px !important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.userCircel{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #6F50A1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -15%;
+}
+.userCircel img{
+    width: 83px;
+    height: 83px;
+}
+.divIconInp{
+    background-color: #6F50A1;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    padding: 10px;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    position: relative;
+}
+.divinp{
+    display: flex;
+}
+.label p {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: -17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 12px;
+    color: red;
+}
+.label input{
+    border: none;
+    background-color: #8B98B8;
+    color: white !important;
+    padding-left: 10px;
+    outline: none;
+    font-size: 20px;
+}
+.label input::placeholder{
+    color: white !important;
+    font-size: 18px;
+}
+.login{
+    color: #6F50A1;
+    align-self: flex-start;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.SignupBtn{
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color:#DEDEDE;
+    bottom: -60px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.SignupBtn button{
+    background-color:#fdfdff00 !important;
+    border: none;
+    color: #6F50A1;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.fogatP{
+    color: #6F50A1;
+    align-self: flex-start;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.divB{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px 0;
+}
+.back{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    color: #6F50A1;
+}
+.back p{
+    margin: 0 !important;
+}
+.back img{
+    width: 40px;
+}
+.userCircelS{
+    top: -55px !important;
+}
+@media screen and (max-width: 480px) {
+    .Signup{
+        padding: 60px 27px;
+        padding-bottom: 10px !important;
+        border-radius: 23px;
+    }
+    .label input{
+        font-size: 14px;
+    }
+    .divIconInp{
+        width: 35px;
+        height: 35px;
+    }
+    .label input::placeholder{
+        color: white !important;
+        font-size: 15px;
+    }
+    .divB p ,.divB a{
+        font-size: 14px;
+    }
+    .userCircel{
+        width:100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #6F50A1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -18%;
+    }
+  }
